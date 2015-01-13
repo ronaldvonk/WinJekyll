@@ -1,0 +1,33 @@
+C:/Development/WinJekyll/ruby/bin/ruby.exe extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating yajl-x64-mingw32.def
+compiling yajl.c
+compiling yajl_alloc.c
+compiling yajl_buf.c
+compiling yajl_encode.c
+compiling yajl_ext.c
+yajl_ext.c: In function 'yajl_encode_part':
+yajl_ext.c:117:21: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+yajl_ext.c: In function 'yajl_found_hash_key':
+yajl_ext.c:291:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+yajl_ext.c: In function 'rb_yajl_parser_parse':
+yajl_ext.c:442:17: warning: variable '_stat64' set but not used [-Wunused-but-set-variable]
+compiling yajl_gen.c
+yajl_gen.c:215:0: warning: "isnan" redefined [enabled by default]
+In file included from yajl_gen.c:40:0:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/math.h:369:0: note: this is the location of the previous definition
+yajl_gen.c:216:0: warning: "isinf" redefined [enabled by default]
+In file included from yajl_gen.c:40:0:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/math.h:330:0: note: this is the location of the previous definition
+compiling yajl_lex.c
+compiling yajl_parser.c
+compiling yajl_version.c
+linking shared-object yajl/yajl.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 yajl.so ./.gem.20150113-3496-1pe5ugg/yajl
+installing default yajl libraries

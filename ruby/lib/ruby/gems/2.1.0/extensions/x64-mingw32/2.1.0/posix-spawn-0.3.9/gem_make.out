@@ -1,0 +1,10 @@
+C:/Development/WinJekyll/ruby/bin/ruby.exe extconf.rb
+
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+make "DESTDIR="
+make: Nothing to be done for `default'.
+
+make "DESTDIR=" install
+make: Nothing to be done for `install'.

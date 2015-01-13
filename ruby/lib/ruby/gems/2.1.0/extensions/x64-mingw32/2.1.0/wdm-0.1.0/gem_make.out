@@ -1,0 +1,162 @@
+C:/Development/WinJekyll/ruby/bin/ruby.exe extconf.rb
+checking for main() in -lkernel32... yes
+checking for windows.h... yes
+checking for ruby.h... yes
+checking for HAVE_RUBY_ENCODING_H... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating wdm_ext-x64-mingw32.def
+compiling entry.c
+In file included from entry.c:1:0:
+wdm.h:3:0: warning: "WINVER" redefined [enabled by default]
+In file included from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/crtdefs.h:10:0,
+                 from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/stdio.h:9,
+                 from wdm.h:1,
+                 from entry.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/_mingw.h:248:0: note: this is the location of the previous definition
+In file included from entry.c:1:0:
+wdm.h:4:0: warning: "_WIN32_WINNT" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/win32.h:38:0,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/defines.h:217,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/ruby.h:29,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby.h:33,
+                 from wdm.h:12,
+                 from entry.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+compiling memory.c
+In file included from memory.c:1:0:
+wdm.h:3:0: warning: "WINVER" redefined [enabled by default]
+In file included from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/crtdefs.h:10:0,
+                 from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/stdio.h:9,
+                 from wdm.h:1,
+                 from memory.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/_mingw.h:248:0: note: this is the location of the previous definition
+In file included from memory.c:1:0:
+wdm.h:4:0: warning: "_WIN32_WINNT" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/win32.h:38:0,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/defines.h:217,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/ruby.h:29,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby.h:33,
+                 from wdm.h:12,
+                 from memory.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+compiling monitor.c
+In file included from monitor.c:1:0:
+wdm.h:3:0: warning: "WINVER" redefined [enabled by default]
+In file included from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/crtdefs.h:10:0,
+                 from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/stdio.h:9,
+                 from wdm.h:1,
+                 from monitor.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/_mingw.h:248:0: note: this is the location of the previous definition
+In file included from monitor.c:1:0:
+wdm.h:4:0: warning: "_WIN32_WINNT" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/win32.h:38:0,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/defines.h:217,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/ruby.h:29,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby.h:33,
+                 from wdm.h:12,
+                 from monitor.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+compiling queue.c
+In file included from queue.c:3:0:
+wdm.h:3:0: warning: "WINVER" redefined [enabled by default]
+In file included from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/vadefs.h:13:0,
+                 from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/_mingw_stdarg.h:14,
+                 from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/stdarg.h:140,
+                 from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/include/stdarg.h:1,
+                 from queue.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/_mingw.h:248:0: note: this is the location of the previous definition
+In file included from queue.c:3:0:
+wdm.h:4:0: warning: "_WIN32_WINNT" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/win32.h:38:0,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/defines.h:217,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/ruby.h:29,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby.h:33,
+                 from wdm.h:12,
+                 from queue.c:3:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+compiling rb_change.c
+In file included from rb_change.c:4:0:
+wdm.h:3:0: warning: "WINVER" redefined [enabled by default]
+In file included from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/crtdefs.h:10:0,
+                 from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/stdlib.h:9,
+                 from rb_change.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/_mingw.h:248:0: note: this is the location of the previous definition
+In file included from rb_change.c:4:0:
+wdm.h:4:0: warning: "_WIN32_WINNT" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/win32.h:38:0,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/defines.h:217,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/ruby.h:29,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby.h:33,
+                 from wdm.h:12,
+                 from rb_change.c:4:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+compiling rb_monitor.c
+In file included from rb_monitor.c:1:0:
+wdm.h:3:0: warning: "WINVER" redefined [enabled by default]
+In file included from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/crtdefs.h:10:0,
+                 from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/stdio.h:9,
+                 from wdm.h:1,
+                 from rb_monitor.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/_mingw.h:248:0: note: this is the location of the previous definition
+In file included from rb_monitor.c:1:0:
+wdm.h:4:0: warning: "_WIN32_WINNT" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/win32.h:38:0,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/defines.h:217,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/ruby.h:29,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby.h:33,
+                 from wdm.h:12,
+                 from rb_monitor.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+rb_monitor.c: In function 'rb_monitor_run_bang':
+rb_monitor.c:508:9: warning: 'rb_thread_blocking_region' is deprecated (declared at c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/intern.h:870) [-Wdeprecated-declarations]
+compiling utils.c
+In file included from utils.c:1:0:
+wdm.h:3:0: warning: "WINVER" redefined [enabled by default]
+In file included from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/crtdefs.h:10:0,
+                 from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/stdio.h:9,
+                 from wdm.h:1,
+                 from utils.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/_mingw.h:248:0: note: this is the location of the previous definition
+In file included from utils.c:1:0:
+wdm.h:4:0: warning: "_WIN32_WINNT" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/win32.h:38:0,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/defines.h:217,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/ruby.h:29,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby.h:33,
+                 from wdm.h:12,
+                 from utils.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+compiling wdm.c
+In file included from wdm.c:1:0:
+wdm.h:3:0: warning: "WINVER" redefined [enabled by default]
+In file included from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/crtdefs.h:10:0,
+                 from c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/stdio.h:9,
+                 from wdm.h:1,
+                 from wdm.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/_mingw.h:248:0: note: this is the location of the previous definition
+In file included from wdm.c:1:0:
+wdm.h:4:0: warning: "_WIN32_WINNT" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/win32.h:38:0,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/defines.h:217,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby/ruby.h:29,
+                 from c:/Development/WinJekyll/ruby/include/ruby-2.1.0/ruby.h:33,
+                 from wdm.h:12,
+                 from wdm.c:1:
+c:\development\winjekyll\devkit\mingw\bin\../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+linking shared-object wdm_ext.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 wdm_ext.so ./.gem.20150113-656-16lbb8z
+installing default wdm_ext libraries

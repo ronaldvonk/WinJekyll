@@ -1,0 +1,1 @@
+SET PATH=%PATH%;%~dp0ruby\bin;%~dp0devkit\bin;%~dp0devkit\mingw\bin
