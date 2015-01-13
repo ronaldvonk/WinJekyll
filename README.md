@@ -29,8 +29,8 @@ Now you can run jekyll anywhere you want (eg. in your project folder).
 
 Make sure you set these variables in the _config.yml in your project's root folder:
 
-> encoding: utf-8
-> highlighter: null
+	encoding: utf-8
+	highlighter: null
 
 ##Special thanks
 
